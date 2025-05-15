@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tonie Enriquez Caponpon Portfolio</title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/acace914e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/TCLogo.jpg" class="logo">
+                <ul>
+                    <li><a href="#header"> Home </a> </li>
+                    <li><a href="#About"> About </a> </li>
+                    <li><a href="#services"> What I Do </a> </li>
+                    <li><a href="#portfolio"> Portfolio </a> </li>
+                    <li><a href="#contact"> Contact </a> </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring AI & Data Engineer</p>
+                <h1>Hi, I'm <span>Tonie</span> Caponpon<br>from Singapore.</h1>
+                
+            </div>
+        </div>
+
+    </div>
+    <!-- About Section in here -->
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/tonieparis2.jpg" class="aboutmePhoto">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I'm from the Philippines, now based in Singapore to pursue Computer Science and Design at the Singapore University of Technology and Design. 
+                        I’m passionate about AI, data, and all things tech — but there’s more to me than just code. 
+                        I compete in esports, make funny and fashion-focused content on TikTok and Instagram, and love 
+                        diving into creative projects that blend personality with purpose. 
+                        Whether I’m gaming, editing a new video, or exploring the latest in AI, I’m always looking for ways to express myself, 
+                        learn something new, and have a little fun along the way.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages:</span><br> Python, Java, JavaScript, HTML, CSS, SQL</li>
+                            <li><span>Data Analytics & Visualization:</span><br> Tableau, Power BI, SAS, Excel, KNIME <br></li>
+                            <li><span>Web & App Development:</span><br> Android (Java), Full-stack Web Apps, Springboot, Firebase <br></li>
+                            <li><span>Machine Learning & AI:</span><br> Data Modeling, Supervised Learning, Classification & Regression, Clustering
+                                <br>Computer Vision: Transfer Learning (VGG16, DenseNet, AlexNet), Image Classification<br> NLP & Text Analytics: Sentiment Analysis, Text Clustering (SAS) </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jul 2022 - Jan 2023 </span><br> Sport Singapore - Data Analyst Intern <br> SportSG Team Lead - Plan ActiveHealth events and performed data analysis post-event. </li>
+                            <li><span>Sep 2020 - May 2023 </span><br> Changi Airport International - Food Runner Team Lead <br> Handled logistics and Delivery of Food to pickup point from F&B Outlets. </li>
+                            <li><span>Jun 2021 - Jun 2023 </span><br> Warner Music Group Philippines <br> Singer-Songwriter - lead in songwriting and producing of music , collaborated with other artists. <br></li>
+                            <li><span>Freelance Web Developer (HTML, JS, CSS)</span> <br> Made a website for Raffles Aviation International </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016 - 2019 </span><br> Hai Sing Catholic School (O Levels: 12pts) <br> Dean's List Recipient </li>
+                            <li><span>2020-2023</span><br> Temasek Polytechnic Scholar - Big Data & Analytics <br> Director's List Recipient <br> Temasek Polytechnic Scholarship Holder </li>
+                            <li><span>2023 - Current </span><br> Singapore University of Technology and Design - Computer Science and Design <br> Specialised in Data Analytics and AI <br> Merit Scholarship Holder <br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section in here -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Let's Work Together!</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Tech Services</h2>
+                    <p>From full-stack development to data visualization, I help bring tech ideas to life.
+                        Whether you need a simple website, a mobile app prototype, or a data dashboard that actually tells a story, I bring technical thinking and clean execution to every project. I’ve worked with tools like Firebase, Tableau, and Python-based ML models — and I love building things that are both functional and human-friendly.</p>
+                    <a href="https://github.com/ToniEnriquez">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                    <h2>Creative & Content Services</h2>
+                    <p>Techie by day, creator by vibe — I produce content that entertains, connects, and inspires.
+                        From fashion videos to relatable comedy clips, I create engaging content for TikTok and Instagram that reflects personality and culture. I also collaborate with brands and communities to produce short-form videos that feel authentic while getting the message across. If you're looking for creative collabs, UGC, or a fun face for your next campaign — let's talk.</p>
+                    <a href="https://www.tiktok.com/@toniecorn?is_from_webapp=1&sender_device=pc">Tiktok | <br></a>
+                    <a href="https://www.instagram.com/tonieenriquez/?hl=en">Instagram</a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Portfolio Section in here -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Some Works of Mine</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Nomly App (Java, Springboot)</h3>
+                        <p> The app makes choosing where to eat easier, and faster.</p>
+                        <a href="https://github.com/ToniEnriquez/NomlyGIT"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpg">
+                    <div class="layer">
+                        <h3>Raffles Aviation International Website</h3>
+                        <p> Freelance website created for the company to inform people of the courses aspiring pilots can take.</p>
+                        <a href="https://github.com/ToniEnriquez/RafflesWebsite"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work4.jpg">
+                    <div class="layer">
+                        <h3>Music Production and Songwriting</h3>
+                        <p>Wrote a song for a famous Filipino movie: Without You starring Shaira Diaz.</p>
+                        <a href="https://www.youtube.com/watch?v=y42M8M_rmCU"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <img src="images/work4part3.jpg">
+                    <div class="layer">
+                        <h3>Data Storytelling and Dashboards</h3>
+                        <p> Projects involving Tableau dashboards</p>
+                        <a href="https://github.com/ToniEnriquez"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work4part2.jpg">
+                    <img src="images/work5part1.jpg">
+                    <div class="layer">
+                        <h3>Computer Vision: Transfer Learning</h3>
+                        <p> Projects involving using Python and Tensorflow for Image Accuracy.</p>
+                        <a href="https://github.com/ToniEnriquez"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.linkedin.com/in/tonie-caponpon-95131b235/" class="btn">LinkedIn Profile</a>
+
+        </div>
+    </div>
+
+    <!-- Contact Me Section in here -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> tonie.enriquez@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +65 92392997</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/tonie-caponpon-95131b235/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/tonieenriquez/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/ToniEnriquez"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/TonieEnriquez_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    
+</body>
+</html>
