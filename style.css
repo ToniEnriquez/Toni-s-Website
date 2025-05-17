@@ -337,4 +337,90 @@ nav ul li a:hover::after {
     background: #CEB07D;
 }
 
-/* 
+/* Paragraph section */
+
+.card-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #3C220F;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 25px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #CEB07D;
+  }
+  
+  .card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+  }
+  
+  .intro-paragraph {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    color: #fff;
+  }
+  
+  /* Testimony section */
+
+  #testimony {
+    padding: 80px 0;
+    background-color: #CEB07D; /* soft off-white background */
+    color: #333;
+    margin-top: 60px;
+  }
+  
+  #testimony .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+  }
+  
+  #testimony .sub-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  #testimony p {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.8;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-left: 5px solid #2e86de;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  #testimony footer {
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+    margin-top: 10px;
+  }
