@@ -82,7 +82,12 @@ nav ul li a:hover::after {
 /* About Section below */
 #about {
     padding: 80px 0;
-    color: #ababab;
+    /*color: #ababab; */
+    background: linear-gradient(170deg, #734443, #110D09);
+    border-radius: 30px;
+    margin: 40px auto; /* adds space around */
+    max-width: 1400px;
+    
 }
 
 .row {
@@ -299,11 +304,11 @@ nav ul li a:hover::after {
 /* Contact section below */
 .contact-left{
     flex-basis: 50%;
+    margin-top: 40px;
 }
 
-
 .contact-left p {
-    margin-top: 30px ;
+    margin-top: 40px ;
 }
 
 .contact-left p i {
@@ -390,6 +395,10 @@ nav ul li a:hover::after {
     background-color: #CEB07D; /* soft off-white background */
     color: #333;
     margin-top: 60px;
+    border-radius: 30px;
+    margin: 40px auto; /* adds space around */
+    max-width: 1400px;
+    background: linear-gradient(170deg, #CEB07D, #ABA595);
   }
   
   #testimony .container {
@@ -424,3 +433,4 @@ nav ul li a:hover::after {
     color: #444;
     margin-top: 10px;
   }
+  
